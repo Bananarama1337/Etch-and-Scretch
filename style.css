@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#btn-space{
+    margin: 20px auto;
+    width: 300px;
+    text-align: center;
+}
+
+#container{
+    border: 2px solid black;
+    margin: auto;
+    max-width: fit-content;
+    display: grid;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: 0.3s ease;
+}
+
+#colorChange{
+    margin: 0px 10px;
+}
+
+.btn:hover{
+    transform: scale(90%);
+}
+
+p{
+    font-size: 1.4rem;
+}
+
+.box{
+    border: 0.4px solid gray;
+    border-radius: 0.1px;
+}
